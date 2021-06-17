@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-public class WordDriver {
+public class Word_Count_Driver {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
 		Job j = new Job();
