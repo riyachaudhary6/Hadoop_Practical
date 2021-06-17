@@ -5,7 +5,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.Reducer.Context;
 
-public class WordReducer extends Reducer<Text, IntWritable, Text, IntWritable>{
+public class Word_Count_Reducer extends Reducer<Text, IntWritable, Text, IntWritable>{
 
 	public void reduce(Text key, Iterable<IntWritable> values, Context context)
 	throws IOException, InterruptedException {
